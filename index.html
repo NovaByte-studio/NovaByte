@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaByte Studio - Soluciones Digitales y Tecnológicas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+    <!-- Partículas animadas en fondo -->
+    <div id="particles-container"></div>
+    
+    <!-- Header futurista -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="NovaByte Studio" class="logo-img">
+                <div class="logo-text">
+                    <h1>NovaByte<span class="gradient-text">Studio</span></h1>
+                    <span class="logo-subtitle">Soluciones Digitales</span>
+                </div>
+            </div>
+            
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#inicio" class="nav-link active"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="#nova-webs" class="nav-link"><i class="fas fa-code"></i> Nova Webs</a></li>
+                    <li><a href="#nova-tech" class="nav-link"><i class="fas fa-tools"></i> Nova Tech</a></li>
+                    <li><a href="#contacto" class="nav-link"><i class="fas fa-phone-alt"></i> Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Sección Hero futurista -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">
+                    <span class="typewriter">Transformamos ideas</span>
+                    <span class="typewriter delay">en experiencias digitales</span>
+                </h2>
+                <p class="hero-subtitle">Innovación tecnológica y desarrollo web de vanguardia para llevar tu negocio al siguiente nivel.</p>
+                <div class="hero-buttons">
+                    <a href="#nova-webs" class="btn-hero btn-primary">
+                        <i class="fas fa-code"></i> Ver Soluciones Web
+                    </a>
+                    <a href="#nova-tech" class="btn-hero btn-secondary">
+                        <i class="fas fa-tools"></i> Soporte Técnico
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="tech-animation">
+                    <div class="cube">
+                        <div class="face front"><i class="fas fa-code"></i></div>
+                        <div class="face back"><i class="fas fa-server"></i></div>
+                        <div class="face right"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="face left"><i class="fas fa-desktop"></i></div>
+                        <div class="face top"><i class="fas fa-database"></i></div>
+                        <div class="face bottom"><i class="fas fa-network-wired"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección Nova Webs -->
+    <section class="services" id="nova-webs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-code section-icon"></i>
+                    Nova <span class="gradient-text">Webs</span>
+                </h2>
+                <p class="section-subtitle">Desarrollo web profesional que combina diseño innovador, funcionalidad avanzada y rendimiento óptimo para tu presencia digital.</p>
+                <div class="section-description">
+                    <p>Nos especializamos en crear la mejor experiencia digital para que tu página web sea a la medida de tus necesidades. Desde diseños responsivos hasta funcionalidades personalizadas, cada proyecto es tratado con la máxima atención al detalle y enfoque en resultados.</p>
+                </div>
+            </div>
+            
+            <!-- Tarjetas de precios -->
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Plantilla</h3>
+                        <div class="price">L. 400</div>
+                        <div class="price-subtitle">Solución rápida y profesional</div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Diseño responsive</li>
+                            <li><i class="fas fa-check"></i> Hasta 5 secciones</li>
+                            <li><i class="fas fa-check"></i> Optimización SEO básica</li>
+                            <li><i class="fas fa-check"></i> Integración redes sociales</li>
+                            <li><i class="fas fa-check"></i> Formulario de contacto</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/50489140244?text=¡Hola NovaByte! Me interesa la plantilla web de L. 400" class="btn-pricing" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Solicitar
+                    </a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Más Popular</div>
+                    <div class="pricing-header">
+                        <h3>Personalizada</h3>
+                        <div class="price">L. 500</div>
+                        <div class="price-subtitle">Diseño único a tu medida</div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Todo lo de Plantilla +</li>
+                            <li><i class="fas fa-check"></i> Diseño 100% personalizado</li>
+                            <li><i class="fas fa-check"></i> Funcionalidades especiales</li>
+                            <li><i class="fas fa-check"></i> SEO avanzado</li>
+                            <li><i class="fas fa-check"></i> Integración con APIs</li>
+                            <li><i class="fas fa-check"></i> Panel de administración</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/50489140244?text=¡Hola NovaByte! Me interesa el desarrollo web personalizado de L. 500" class="btn-pricing" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Solicitar
+                    </a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Mantenimiento</h3>
+                        <div class="price">L. 300</div>
+                        <div class="price-subtitle">Soporte continuo mensual</div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Actualizaciones de seguridad</li>
+                            <li><i class="fas fa-check"></i> Backups regulares</li>
+                            <li><i class="fas fa-check"></i> Soporte técnico 24/7</li>
+                            <li><i class="fas fa-check"></i> Monitoreo de rendimiento</li>
+                            <li><i class="fas fa-check"></i> Actualización de contenido</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/50489140244?text=¡Hola NovaByte! Me interesa el plan de mantenimiento de L. 300 mensuales" class="btn-pricing" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Solicitar
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Galería de proyectos web -->
+            <div class="gallery-section">
+                <h3 class="gallery-title">Nuestros Proyectos Web</h3>
+                <p class="gallery-subtitle">Explora algunos de nuestros trabajos recientes en desarrollo web</p>
+                
+                <div class="gallery-grid">
+                    <!-- Proyecto 1 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <img src="web1.png" alt="Proyecto Web 1" class="project-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4>Proyecto Web 1</h4>
+                                    <p>Diseño moderno y responsive</p>
+                                    <a href="https://wa.me/50489140244?text=¡Hola NovaByte! Me interesa un proyecto similar al Proyecto Web 1" class="btn-overlay" target="_blank">
+                                        <i class="fab fa-whatsapp"></i> Consultar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 2 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <img src="web2.png" alt="Proyecto Web 2" class="project-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4>Proyecto Web 2</h4>
+                                    <p>E-commerce optimizado</p>
+                                    <a href="https://wa.me/50489140244?text=¡Hola NovaByte! Me interesa un proyecto similar al Proyecto Web 2" class="btn-overlay" target="_blank">
+                                        <i class="fab fa-whatsapp"></i> Consultar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 3 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <img src="web3.png" alt="Proyecto Web 3" class="project-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4>Proyecto Web 3</h4>
+                                    <p>Portal corporativo</p>
+                                    <a href="https://wa.me/50489140244?text=¡Hola NovaByte! Me interesa un proyecto similar al Proyecto Web 3" class="btn-overlay" target="_blank">
+                                        <i class="fab fa-whatsapp"></i> Consultar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 4 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <img src="web4.png" alt="Proyecto Web 4" class="project-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4>Proyecto Web 4</h4>
+                                    <p>Aplicación web interactiva</p>
+                                    <a href="https://wa.me/50489140244?text=¡Hola NovaByte! Me interesa un proyecto similar al Proyecto Web 4" class="btn-overlay" target="_blank">
+                                        <i class="fab fa-whatsapp"></i> Consultar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- WhatsApp contacto -->
+            <div class="contact-cta">
+                <div class="cta-content">
+                    <i class="fab fa-whatsapp cta-icon"></i>
+                    <div class="cta-text">
+                        <h3>¿Listo para comenzar tu proyecto web?</h3>
+                        <p>Contáctanos por WhatsApp para una consulta gratuita</p>
+                    </div>
+                </div>
+                <a href="https://wa.me/50489140244" class="btn-cta" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: 504 8914-0244
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección Nova Tech -->
+    <section class="services tech-section" id="nova-tech">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-tools section-icon"></i>
+                    Nova <span class="gradient-text">Tech</span>
+                </h2>
+                <p class="section-subtitle">Soluciones técnicas especializadas para hardware y software, garantizando el óptimo funcionamiento de tus equipos tecnológicos.</p>
+                <div class="section-description">
+                    <p>Especializados en diagnosticar y resolver problemas en tus equipos tecnológicos. Ofrecemos reparaciones confiables, mantenimiento preventivo y soluciones personalizadas para asegurar que tu tecnología funcione al máximo rendimiento. Trabajamos con precisión y atención al detalle en cada reparación.</p>
+                </div>
+            </div>
+            
+            <!-- Servicios de Tech -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Reparación de Computadoras</h3>
+                    <p>Diagnóstico y reparación de hardware y software para PC de escritorio y laptops.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Reparación de Celulares</h3>
+                    <p>Cambio de pantallas, baterías y reparación de componentes en smartphones.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Redes y Conectividad</h3>
+                    <p>Configuración de redes, routers, puntos de acceso y solución de problemas de conexión.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad y Antivirus</h3>
+                    <p>Protección contra malware, configuración de firewalls y optimización de seguridad.</p>
+                </div>
+            </div>
+            
+            <!-- Galería de reparaciones -->
+            <div class="gallery-section">
+                <h3 class="gallery-title">Nuestros Trabajos Técnicos</h3>
+                <p class="gallery-subtitle">Algunos ejemplos de nuestras reparaciones y mantenimientos</p>
+                
+                <div class="gallery-grid">
+                    <!-- Reparación 1 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <img src="tech1.png" alt="Reparación 1" class="project-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4>Reparación 1</h4>
+                                    <p>Mantenimiento especializado</p>
+                                    <a href="https://wa.me/50431766469?text=¡Hola NovaByte! Me interesa información sobre reparaciones técnicas" class="btn-overlay" target="_blank">
+                                        <i class="fab fa-whatsapp"></i> Consultar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Reparación 2 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <img src="tech2.png" alt="Reparación 2" class="project-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4>Reparación 2</h4>
+                                    <p>Solución de hardware</p>
+                                    <a href="https://wa.me/50431766469?text=¡Hola NovaByte! Me interesa información sobre reparaciones técnicas" class="btn-overlay" target="_blank">
+                                        <i class="fab fa-whatsapp"></i> Consultar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Reparación 3 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <img src="tech3.png" alt="Reparación 3" class="project-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4>Reparación 3</h4>
+                                    <p>Optimización de equipos</p>
+                                    <a href="https://wa.me/50431766469?text=¡Hola NovaByte! Me interesa información sobre reparaciones técnicas" class="btn-overlay" target="_blank">
+                                        <i class="fab fa-whatsapp"></i> Consultar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Reparación 4 -->
+                    <div class="gallery-item">
+                        <div class="gallery-image">
+                            <img src="tech4.png" alt="Reparación 4" class="project-img">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h4>Reparación 4</h4>
+                                    <p>Configuración de sistemas</p>
+                                    <a href="https://wa.me/50431766469?text=¡Hola NovaByte! Me interesa información sobre reparaciones técnicas" class="btn-overlay" target="_blank">
+                                        <i class="fab fa-whatsapp"></i> Consultar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- WhatsApp contacto tech -->
+                      <div class="contact-cta tech-cta">
+                <div class="cta-content">
+                    <i class="fab fa-whatsapp cta-icon"></i>
+                    <div class="cta-text">
+                        <h3>¿Problemas con tus equipos?</h3>
+                        <p>Nuestros técnicos especializados están listos para ayudarte</p>
+                    </div>
+                </div>
+                <a href="https://wa.me/50431766469" class="btn-cta" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: 504 3176-6469
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="logo.png" alt="NovaByte Studio" class="footer-logo-img">
+                        <div class="logo-text">
+                            <h3>NovaByte<span class="gradient-text">Studio</span></h3>
+                            <span class="logo-subtitle">Innovación y Tecnología</span>
+                        </div>
+                    </div>
+                    <p class="footer-description">Transformamos desafíos tecnológicos en soluciones eficientes. Combinamos creatividad digital con expertise técnico para impulsar tu negocio hacia el futuro.</p>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Nuestros Servicios</h4>
+                    <ul>
+                        <li><i class="fas fa-code"></i> Desarrollo Web Personalizado</li>
+                        <li><i class="fas fa-paint-brush"></i> Diseño de Plantillas</li>
+                        <li><i class="fas fa-cogs"></i> Mantenimiento Web</li>
+                        <li><i class="fas fa-tools"></i> Reparación de Hardware</li>
+                        <li><i class="fas fa-mobile-alt"></i> Soporte Técnico</li>
+                        <li><i class="fas fa-network-wired"></i> Soluciones de Red</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contacto Rápido</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-code contact-icon"></i>
+                            <div class="contact-details">
+                                <span class="contact-label">Nova Webs</span>
+                                <a href="https://wa.me/50489140244" class="contact-link" target="_blank">
+                                    <i class="fab fa-whatsapp"></i> 504 8914-0244
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-tools contact-icon"></i>
+                            <div class="contact-details">
+                                <span class="contact-label">Nova Tech</span>
+                                <a href="https://wa.me/50431766469" class="contact-link" target="_blank">
+                                    <i class="fab fa-whatsapp"></i> 504 3176-6469
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <div class="contact-details">
+                                <span class="contact-label">Horario</span>
+                                <span>Lunes a Sábado: 8:00 AM - 6:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 NovaByte Studio. Todos los derechos reservados.</p>
+                <p>Diseñado con <i class="fas fa-heart"></i> para impulsar tu presencia digital</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Botones flotantes de WhatsApp -->
+    <a href="https://wa.me/50489140244" class="whatsapp-float nova-webs-float" target="_blank" title="Nova Webs">
+        <i class="fab fa-whatsapp"></i>
+        <span class="float-label">Webs</span>
+    </a>
+    
+    <a href="https://wa.me/50431766469" class="whatsapp-float nova-tech-float" target="_blank" title="Nova Tech">
+        <i class="fas fa-tools"></i>
+        <span class="float-label">Tech</span>
+    </a>
+    
+    <script src="script.js"></script>
+</body>
+</html>
